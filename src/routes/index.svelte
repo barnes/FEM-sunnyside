@@ -1,5 +1,9 @@
 <div class="lg:container lg:mx-auto container">
-	<div class="p-5 bg-desktop-image-header bg-cover bg-no-repeat">
+	<div
+		class="bg-[url('/images/mobile/image-header.jpg')] 
+    lg:bg-[url('/images/desktop/image-header.jpg')] 
+    bg-cover px-6 pt-6 h-[535px] lg:h-[800px] bg-center bg-no-repeat w-full"
+	>
 		<div class="flex justify-between">
 			<div class="branding">
 				<h1 class="text-white font-extrabold tracking-wide font-sans text-2xl">sunnyside</h1>
@@ -13,16 +17,16 @@
 				</ul>
 			</div>
 		</div>
-		<div class="flex items-center gap-24 flex-col pt-24">
+		<div class="flex items-center gap-24 flex-col">
 			<div
 				class="text-5xl text-center leading-relaxed font-serif uppercase text-white tracking-extrawide font-extrabold"
 			>
 				We are creatives
 			</div>
-			<img src="/images/icon-arrow-down.svg" class="mb-96" alt="arrow" />
+			<img src="/images/icon-arrow-down.svg" alt="arrow" />
 		</div>
 	</div>
-	<div class="flex flex-col lg:flex-row items-center">
+	<div class="flex flex-col lg:flex-row items-center lg:h-[600px]">
 		<div class="px-32 py-44 lg:w-1/2">
 			<h2 class="text-5xl font-extrabold font-serif text-darkblue pb-12">Transform your brand</h2>
 			<p class="text-lg text-verygreyblue font-sans pb-12">
@@ -32,7 +36,7 @@
 			<a href="#" class="uppercase text-xl font-serif pb-12">Learn More</a>
 		</div>
 		<div class="lg:w-1/2">
-			<img src="/images/desktop/image-transform.jpg" class="w-full" />
+			<img src="/images/desktop/image-transform.jpg" class="h-full" />
 		</div>
 	</div>
 	<div class="flex lg:flex-row-reverse flex-col items-center">

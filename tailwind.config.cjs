@@ -2,9 +2,6 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		screens: {
-			lg: '1200px'
-		},
 		colors: {
 			softred: 'hsl(7,99%,70%)',
 			yellow: 'hsl(51, 100%, 49%)',
