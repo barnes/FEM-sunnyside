@@ -27,14 +27,15 @@
 			</div>
 			<div class="menu hidden lg:block">
 				<ul class="flex flex-col lg:flex-row gap-10 text-white items-center font-sans text-lg">
-					<li>About</li>
-					<li>Services</li>
-					<li>Projects</li>
-					<li
+					<a href="#">About</a>
+					<a href="#">Services</a>
+					<a href="#">Projects</a>
+					<a
+						href="#"
 						class="bg-white hover:bg-buttonhover hover:text-white py-3 px-6 rounded-3xl text-darkblue uppercase"
 					>
 						Contact
-					</li>
+					</a>
 				</ul>
 			</div>
 		</div>
