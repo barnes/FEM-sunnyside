@@ -75,7 +75,7 @@
 			<!-- headline -->
 			<div class="flex items-center gap-24 flex-col">
 				<div
-					class="md:text-5xl text-4xl text-center pt-16 leading-relaxed font-serif uppercase text-white tracking-extrawide font-extrabold"
+					class="md:text-5xl text-4xl text-center pt-24 leading-relaxed font-serif uppercase text-white tracking-extrawide font-extrabold"
 				>
 					We are creatives
 				</div>
@@ -192,7 +192,7 @@
 		</div>
 	</div>
 	<!-- gallery -->
-	<div class="grid grid-cols-2">
+	<div class="grid grid-cols-2 md:grid-cols-4 ">
 		<img
 			class="hidden md:block"
 			src="/images/desktop/image-gallery-milkbottles.jpg"
