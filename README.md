@@ -2,7 +2,4 @@
 
 Landing page done with TailwindCSS & Sveltekit.
 
-## TODO
-
-- smooth transitions
-- Fix colors
+Some small issues here and there, but likely in a solid place for submission.

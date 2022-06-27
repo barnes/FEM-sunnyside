@@ -30,7 +30,11 @@
 					<li>About</li>
 					<li>Services</li>
 					<li>Projects</li>
-					<li class="bg-white py-3 px-6 rounded-3xl text-darkblue uppercase">Contact</li>
+					<li
+						class="bg-white hover:bg-buttonhover hover:text-white py-3 px-6 rounded-3xl text-darkblue uppercase"
+					>
+						Contact
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -54,10 +58,15 @@
 				</div>
 				<div class="md:hidden block menu bg-white">
 					<ul class="flex flex-col gap-10 py-10 items-center font-sans text-lg text-greyblue">
-						<li>About</li>
-						<li>Services</li>
-						<li>Projects</li>
-						<li class="bg-yellow py-3 px-6 rounded-3xl text-darkblue uppercase">Contact</li>
+						<a href="#">About</a>
+						<a href="#">Services</a>
+						<a href="#">Projects</a>
+						<a
+							href="#"
+							class="bg-yellow hover:bg-deyellow py-3 px-6 rounded-3xl text-darkblue uppercase"
+						>
+							Contact
+						</a>
 					</ul>
 				</div>
 			</div>
@@ -76,14 +85,18 @@
 	<!-- 4x4 grid -->
 	<div class="grid md:grid-cols-2 grid-cols-1">
 		<div class="p-10 lg:p-16 lg:text-left flex flex-col justify-center text-center">
-			<h2 class="text-3xl lg:text-4xl font-extrabold font-serif text-darkblue pb-6">
+			<h2 class="text-3xl lg:text-4xl font-extrabold font-serif text-deblue pb-6">
 				Transform your brand
 			</h2>
 			<p class="lg:text-lg text-verygreyblue font-sans lg:pb-12 pb-6">
 				We are a full-service creative agency specializing in helping brands grow fast. Engage your
 				cleints through compelling visuals that do most of the marketing for you.
 			</p>
-			<a href="#" class="uppercase md:text-xl font-serif">Learn More</a>
+			<a
+				href="#"
+				class=" self-center lg:self-start uppercase text-xl font-serif  border-b-8 border-deyellow  hover:border-yellow w-fit leading-button px-2"
+				>Learn More</a
+			>
 		</div>
 		<div class="image h-full w-auto order-first md:order-none">
 			<img class="hidden md:block" src="images/desktop/image-transform.jpg" alt="transform" />
@@ -97,15 +110,19 @@
 				alt="stand-out"
 			/>
 		</div>
-		<div class="p-10 lg:p-16 flex flex-col justify-center text-center">
-			<h2 class="text-3xl lg:text-4xl font-extrabold font-serif text-darkblue pb-6">
+		<div class="p-10 lg:p-16 lg:text-left flex flex-col justify-center text-center">
+			<h2 class="text-3xl lg:text-4xl font-extrabold font-serif text-deblue pb-6">
 				Stand out to the right audience
 			</h2>
 			<p class="lg:text-lg text-verygreyblue font-sans lg:pb-12 pb-6">
 				Using a collaborative formula of designers, researchers, photographers, videographers, and
 				copywriters, we'll build and extend your brand in digital places.
 			</p>
-			<a href="#" class="uppercase md:text-xl font-serif">Learn More</a>
+			<a
+				href="#"
+				class="uppercase text-xl font-serif self-center lg:self-start  border-b-8 border-desoftred  hover:border-softred w-fit leading-button px-2"
+				>Learn More</a
+			>
 		</div>
 		<div
 			class="md:p-16 p-8 pt-[30rem] bg-[url('/images/desktop/image-graphic-design.jpg')] bg-cover bg-center flex flex-col justify-end"
@@ -210,17 +227,27 @@
 		/>
 	</div>
 	<div class="bg-[#97D8C7] py-12">
-		<h2 class="text-center text-3xl font-extrabold text-decyan pb-8">sunnyside</h2>
-		<ul class="text-lg flex justify-center gap-12 text-decyan pb-20">
-			<li>About</li>
-			<li>Services</li>
-			<li>Projects</li>
+		<h2 class="text-center text-3xl font-extrabold text-modcyan pb-8">sunnyside</h2>
+		<ul class="text-lg flex justify-center gap-12 text-modcyan pb-20">
+			<a href="#" class="hover:text-white">About</a>
+			<a href="#" class="hover:text-white">Services</a>
+			<a href="#" class="hover:text-white">Projects</a>
 		</ul>
 		<ul class="flex justify-center gap-6">
-			<li><img src="images/icon-facebook.svg" alt="facebook icon" /></li>
-			<li><img src="images/icon-instagram.svg" alt="facebook icon" /></li>
-			<li><img src="images/icon-twitter.svg" alt="facebook icon" /></li>
-			<li><img src="images/icon-pinterest.svg" alt="facebook icon" /></li>
+			<li>
+				<img src="images/icon-facebook.svg" alt="facebook icon" class="hover:contrast-0" />
+			</li>
+			<li>
+				<img src="images/icon-instagram.svg" alt="facebook icon" class="hover:contrast-0" />
+			</li>
+			<li>
+				<img
+					src="images/icon-twitter.svg"
+					alt="facebook icon"
+					class="hover:contrast-0 hover:brightness-200"
+				/>
+			</li>
+			<li><img src="images/icon-pinterest.svg" alt="facebook icon" class="hover:contrast-0" /></li>
 		</ul>
 	</div>
 </div>
